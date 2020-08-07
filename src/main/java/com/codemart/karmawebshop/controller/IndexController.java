@@ -24,4 +24,9 @@ public class IndexController {
     public String cart() {
         return "cart";
     }
+
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
 }
