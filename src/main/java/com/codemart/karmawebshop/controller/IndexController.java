@@ -19,4 +19,14 @@ public class IndexController {
     public String category() {
         return "category";
     }
+
+    @GetMapping("/cart")
+    public String cart() {
+        return "cart";
+    }
+
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
 }
