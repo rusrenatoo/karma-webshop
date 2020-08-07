@@ -12,6 +12,7 @@ public class IndexController {
 
     @GetMapping("/contact")
     public String contact() {
+        System.out.println("WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW");
         return "contact";
     }
 }
